@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "channel": "test",
+  "version": "0.1.0-test",
+  "windows": {
+    "installerUrl": null,
+    "sha256": null
+  },
+  "notes": "Aucun installateur publié. Manifeste de préparation uniquement."
+}
