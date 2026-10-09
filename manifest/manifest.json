@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "modpackVersion": "0.1.0-test",
+  "minecraftVersion": "1.20.1",
+  "forgeVersion": "47.4.10",
+  "server": {
+    "host": "play2.eternalzero.cloud",
+    "port": 26506
+  },
+  "files": []
+}
