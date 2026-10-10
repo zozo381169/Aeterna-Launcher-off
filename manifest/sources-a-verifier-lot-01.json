@@ -5,15 +5,17 @@
   "candidates": [
     {
       "path": "mods/geckolib-forge-1.20.1-4.8.4.jar",
-      "officialVersionPage": "https://modrinth.com/mod/geckolib/version/aC5KMoNg",
+      "officialVersionPage": "https://www.curseforge.com/minecraft/mc-mods/geckolib/files/all?gameVersionTypeId=1&page=1&version=1.20.1",
       "directUrl": null,
-      "verifiedSha1": false
+      "verifiedSha1": false,
+      "note": "Official listing confirms exact Forge 1.20.1 4.8.4 filename; direct asset URL and hash still unverified."
     },
     {
       "path": "mods/Controlling-forge-1.20.1-12.0.2.jar",
       "officialVersionPage": "https://www.curseforge.com/minecraft/mc-mods/controlling/files/4646682",
       "directUrl": null,
-      "verifiedSha1": false
+      "verifiedSha1": false,
+      "note": "CurseForge file ID 4646682 confirms exact Forge 1.20.1 12.0.2 filename; direct asset URL and hash still unverified."
     }
   ]
 }
