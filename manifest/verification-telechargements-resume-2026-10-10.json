@@ -1,0 +1,11 @@
+{
+  "checkedAt": "2026-10-10T19:46:50.259Z",
+  "source": "User-provided GitHub Actions download verification artifact",
+  "total": 108,
+  "verified": 76,
+  "mismatch": 0,
+  "errors": 0,
+  "missing": 32,
+  "verifiedFraction": "76/108",
+  "note": "All 76 URLs present in the preparation manifest passed actual download byte-count and SHA-1 checks. 32 entries lack URLs. This is not a distribution rights review and does not establish Forge runtime compatibility. Active manifest must remain disabled."
+}
