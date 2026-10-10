@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "notes": [
+    "Ces liens sont des pages de projet, PAS des URLs de téléchargement utilisables dans le launcher.",
+    "Ne pas activer le manifeste tant que les 35 fichiers ne sont pas résolus.",
+    "Pour CurseForge, respecter API, autorisations de téléchargement et licences.",
+    "Pour tout fichier, comparer SHA-1 et taille au manifeste de préparation."
+  ],
+  "candidates": [
+    {
+      "path": "mods/ftb-quests-forge-2001.4.22.jar",
+      "page": "https://www.curseforge.com/minecraft/mc-mods/ftb-quests-forge/files/all?gameVersionTypeId=1&page=1",
+      "status": "version-page-confirmed",
+      "note": "Version exacte visible sur la page; URL binaire et SHA-1 non validés"
+    },
+    {
+      "path": "mods/ftb-teams-forge-2001.3.2.jar",
+      "page": "https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge",
+      "status": "project-page-confirmed",
+      "note": "Projet officiel identifié; version exacte et SHA-1 à vérifier"
+    },
+    {
+      "path": "mods/ftb-library-forge-2001.2.13.jar",
+      "page": "https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge",
+      "status": "candidate-project-page",
+      "note": "Projet candidat; version exacte à vérifier"
+    }
+  ]
+}
