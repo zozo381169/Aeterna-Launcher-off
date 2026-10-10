@@ -1,0 +1,22 @@
+name: Recherche Modrinth par SHA1
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  recherche:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Recuperer le manifest de la branche de test
+        uses: actions/checkout@v4
+        with:
+          ref: test/manifestes-v1
+      - name: Rechercher les fichiers exacts sur Modrinth
+        run: node scripts/recherche-modrinth-sha1.js
+      - name: Archiver le rapport
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: rapport-modrinth-sha1
+          path: manifest/rapport-modrinth-hash.json
+          if-no-files-found: warn
