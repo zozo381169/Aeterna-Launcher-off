@@ -1,0 +1,25 @@
+name: Discover official FTB Maven files
+on:
+  workflow_dispatch:
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: test/manifestes-v1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check exact FTB artifacts
+        run: node scripts/discover-ftb-maven.js
+      - name: Upload FTB source report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: aeterna-ftb-maven-report
+          path: manifest/ftb-maven-rapport.json
+          if-no-files-found: warn
