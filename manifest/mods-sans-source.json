@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "source": "manifest-aeterna-108-fichiers-preparation.json",
+  "modpackVersion": "0.1.0-test",
+  "filesMissingUrl": [
+    {
+      "path": "mods/cupboard-1.20.1-3.9.jar",
+      "size": 31724,
+      "sha1": "b44f4d66a62f2accca149b22a5418b9c92c6c9cc"
+    },
+    {
+      "path": "mods/dynamiclights-1.20.1.2.jar",
+      "size": 49564,
+      "sha1": "19a5b772e1b6ca15cca8db6f201884459f37a173"
+    },
+    {
+      "path": "mods/easy_npc-forge-1.20.1-7.4.1.jar",
+      "size": 2270248,
+      "sha1": "4c2cd233e307a5a6aed7860eaf1947c7686b349c"
+    },
+    {
+      "path": "mods/easy_npc_bundle-forge-1.20.1-7.4.1.jar",
+      "size": 25438,
+      "sha1": "cee00e8d676c1f71c6182100687570544a29e3cd"
+    },
+    {
+      "path": "mods/easy_npc_config_ui-forge-1.20.1-7.4.1.jar",
+      "size": 978860,
+      "sha1": "061a7f6b5c3eba30846919dc567482c5da67733d"
+    },
+    {
+      "path": "mods/epichunt-forge-1.4.2.jar",
+      "size": 4345866,
+      "sha1": "d0e22581436d096f4d59e2b3822dcf7e4ca15ccf"
+    },
+    {
+      "path": "mods/expandability-9.0.4.jar",
+      "size": 80765,
+      "sha1": "2ea3c2ec654e11a5548f33d0d733aa6ecd9a0d6d"
+    },
+    {
+      "path": "mods/ftb-library-forge-2001.2.13.jar",
+      "size": 780558,
+      "sha1": "a5427d5ff07eb044144ed0b54308370d88bce17e"
+    },
+    {
+      "path": "mods/ftb-quests-forge-2001.4.22.jar",
+      "size": 1255469,
+      "sha1": "70f3bd771ab3b5921ce1ff5f14166fab694ca1aa"
+    },
+    {
+      "path": "mods/ftb-teams-forge-2001.3.2.jar",
+      "size": 252579,
+      "sha1": "c49023f5d471aa1ba7fc624d2565fe9e82b7117e"
+    },
+    {
+      "path": "mods/geckolib-forge-1.20.1-4.8.4.jar",
+      "size": 1038209,
+      "sha1": "81982cc287f80ffabb2fd36d22cc95e4255c739d"
+    },
+    {
+      "path": "mods/GlitchCore-forge-1.20.1-0.0.1.1.jar",
+      "size": 87550,
+      "sha1": "1a0aaf7c33b9acb26bf75899a43e8941cac1f6e7"
+    },
+    {
+      "path": "mods/Legendary Armory 1.5.3.jar",
+      "size": 5686202,
+      "sha1": "41ebe31d168d39b9ebf55df7e368bbaa2ecf2e2e"
+    },
+    {
+      "path": "mods/ranksandtitles-1.2.0.jar",
+      "size": 68848,
+      "sha1": "3a9320d0a36029dc1113792d88de9edd6f7a622c"
+    },
+    {
+      "path": "mods/rpa-1.6.1-forge-1.20.1.jar",
+      "size": 4574333,
+      "sha1": "3b8e222a2db8666f039b6b50ec4df11d212c52de"
+    },
+    {
+      "path": "mods/scrollwright-1.20.1-0.2.1.jar",
+      "size": 175741,
+      "sha1": "8a866341b6f6b6b6b37776dff2ae66a4155b8ac3"
+    },
+    {
+      "path": "mods/Searchables-forge-1.20.1-1.0.3.jar",
+      "size": 77732,
+      "sha1": "ed5a23ec30c90fd06b3f1d8140614028e1fafaee"
+    },
+    {
+      "path": "mods/SereneSeasons-forge-1.20.1-9.1.0.3.jar",
+      "size": 160885,
+      "sha1": "e553c2a50dc08d7b8b2aee6da1db0dc156fe961a"
+    },
+    {
+      "path": "mods/serializer_debug-1.0.1.jar",
+      "size": 400461,
+      "sha1": "2eb23fc7753d4c6e1621617501eea366fd1a0bed"
+    },
+    {
+      "path": "mods/siegeweapons-1.20.1-0.2.5.jar",
+      "size": 1040867,
+      "sha1": "f4ae32159b78d6d5e9f1c11588107678cd1151bd"
+    },
+    {
+      "path": "mods/siegeworks-0.7.0-fix.2.jar",
+      "size": 2098580,
+      "sha1": "9d8eb2be1a3e7de1647087af0e98edd676de1e0f"
+    },
+    {
+      "path": "mods/sophisticatedbackpacks-1.20.1-3.24.62.2017.jar",
+      "size": 1130880,
+      "sha1": "fe4b90ab03b61ac0901125ce36a65cd188ea9c15"
+    },
+    {
+      "path": "mods/sophisticatedcore-1.20.1-1.3.73.2192.jar",
+      "size": 1622705,
+      "sha1": "ec4403509162632bbad7f6c7be382a3fa6381a30"
+    },
+    {
+      "path": "mods/terrarialike_respawns-1.0.2-forge-1.20.1.jar",
+      "size": 28411,
+      "sha1": "fe2839c588b08a12466695b4acfa94744a851cf4"
+    },
+    {
+      "path": "mods/tl_skin_cape_forge_1.20_1.20.1-1.32.jar",
+      "size": 715179,
+      "sha1": "b7df8fec6b076b9b1755754f03fde08349d221d1"
+    },
+    {
+      "path": "mods/voicechat-forge-1.20.1-2.6.21.jar",
+      "size": 4918879,
+      "sha1": "77ae96b41c9328213659991c113a6e13c95724ba"
+    },
+    {
+      "path": "mods/zmedievalmusic-1.20.1-2.2.jar",
+      "size": 304415885,
+      "sha1": "8352744a85f8c6f95e2d9cddb7fed09896c785cb"
+    },
+    {
+      "path": "mods/alcohol_mod_okaypy-1.0.4-forge-1.20.1.jar",
+      "size": 1086792,
+      "sha1": "409ce55f19093568dbb9a773589bc43bfd73c0bd"
+    },
+    {
+      "path": "mods/ArmorHudDurabilityBars-5.0.1 Forge-MC1.20.1.jar",
+      "size": 79532,
+      "sha1": "8280a7dd70e92cdc2c3243083aa5147e1d2ab80f"
+    },
+    {
+      "path": "mods/bakeries-1.20.1-forge-1.3.2.jar",
+      "size": 2793567,
+      "sha1": "f6766022dc474d379dee9975d25f34feefb8d9b8"
+    },
+    {
+      "path": "mods/bettermobcombat-recruitsfix-1.20.1-1.3.1.jar",
+      "size": 146704,
+      "sha1": "bfddda8c3efc11803a33220fdc99003d3d2ae268"
+    },
+    {
+      "path": "mods/biomemusic-1.20.1-4.1.jar",
+      "size": 47528,
+      "sha1": "f802fa65812616761afd6a292c2b431955caec9d"
+    },
+    {
+      "path": "mods/BOMD-Forge-1.20.1-1.1.2.jar",
+      "size": 1753623,
+      "sha1": "2caa8739ed9702c5ad87b6c5436432f8be755217"
+    },
+    {
+      "path": "mods/Controlling-forge-1.20.1-12.0.2.jar",
+      "size": 115280,
+      "sha1": "f6d3cdd3ec68c5590cf5b2e89c38dbf031824bfd"
+    },
+    {
+      "path": "mods/corpse-forge-1.20.1-1.0.23.jar",
+      "size": 245644,
+      "sha1": "843b16ca88bc5c390bb22a2a84437e6bffdd43dd"
+    }
+  ],
+  "notes": "Les URLs manquantes ne doivent pas être inventées. Confirmer droits et modalités de téléchargement avant activation."
+}
