@@ -1,0 +1,27 @@
+name: Verify Aeterna release assets
+on:
+  push:
+    branches: [test/manifestes-v1]
+    paths:
+      - 'scripts/verify-aeterna-release.js'
+      - 'manifest/manifest-inventaire.json'
+      - '.github/workflows/verify-aeterna-release.yml'
+  workflow_dispatch:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Verify published assets against inventory
+        run: node scripts/verify-aeterna-release.js
+      - name: Upload verified partial manifest
+        uses: actions/upload-artifact@v4
+        with:
+          name: aeterna-verified-partial-manifest
+          path: manifest/manifest-aeterna-verifie.json
+          if-no-files-found: error
