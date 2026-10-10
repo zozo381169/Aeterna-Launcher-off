@@ -105,19 +105,19 @@
     },
     {
       "path": "mods/ftb-library-forge-2001.2.13.jar",
-      "url": null,
+      "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-library-forge/2001.2.13/ftb-library-forge-2001.2.13.jar",
       "size": 780558,
       "sha1": "a5427d5ff07eb044144ed0b54308370d88bce17e"
     },
     {
       "path": "mods/ftb-quests-forge-2001.4.22.jar",
-      "url": null,
+      "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-quests-forge/2001.4.22/ftb-quests-forge-2001.4.22.jar",
       "size": 1255469,
       "sha1": "70f3bd771ab3b5921ce1ff5f14166fab694ca1aa"
     },
     {
       "path": "mods/ftb-teams-forge-2001.3.2.jar",
-      "url": null,
+      "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-teams-forge/2001.3.2/ftb-teams-forge-2001.3.2.jar",
       "size": 252579,
       "sha1": "c49023f5d471aa1ba7fc624d2565fe9e82b7117e"
     },
