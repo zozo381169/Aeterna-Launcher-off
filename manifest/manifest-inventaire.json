@@ -459,31 +459,31 @@
     },
     {
       "path": "mods/aeterna-1.0.2.jar",
-      "url": null,
+      "url": "https://github.com/zozo381169/Aeterna-Launcher-off/releases/download/mods-aeterna-v0.1.0-test/aeterna-1.0.2.jar",
       "size": 1277387,
       "sha1": "d713841f9cc2c9dd3cf26335b8419faaf5e7c27f"
     },
     {
       "path": "mods/AeternaCorbeaux-Client-1.0.0.jar",
-      "url": null,
+      "url": "https://github.com/zozo381169/Aeterna-Launcher-off/releases/download/mods-aeterna-v0.1.0-test/AeternaCorbeaux-Client-1.0.0.jar",
       "size": 22575,
       "sha1": "439d38b55aa7a75c1bde1d87cb0a32289bf1bf63"
     },
     {
       "path": "mods/AeternaHUD-1.0.0-taille-C.jar",
-      "url": null,
+      "url": "https://github.com/zozo381169/Aeterna-Launcher-off/releases/download/mods-aeterna-v0.1.0-test/AeternaHUD-1.0.0-taille-C.jar",
       "size": 916899,
       "sha1": "44d0a3e64a3974d7802356d4fd222ef24353ad4f"
     },
     {
       "path": "mods/AeternaInventory-1.0.0.jar",
-      "url": null,
+      "url": "https://github.com/zozo381169/Aeterna-Launcher-off/releases/download/mods-aeterna-v0.1.0-test/AeternaInventory-1.0.0.jar",
       "size": 2541347,
       "sha1": "5090057431c8f71d7e901efad61b65daf412c7b4"
     },
     {
       "path": "mods/AeternaOfficiel-forge-1.4.6+1.20.1.jar",
-      "url": null,
+      "url": "https://github.com/zozo381169/Aeterna-Launcher-off/releases/download/mods-aeterna-v0.1.0-test/AeternaOfficiel-forge-1.4.6%2B1.20.1.jar",
       "size": 304769,
       "sha1": "06d5dad3c1c96bdb8e3498d1330ac59c01eb744e"
     },
