@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "status": "candidates-only",
+  "note": "Official version pages found; direct file URLs, hashes, sizes and distribution conditions must be verified before promotion to the active manifest.",
+  "candidates": [
+    {
+      "path": "mods/geckolib-forge-1.20.1-4.8.4.jar",
+      "officialVersionPage": "https://modrinth.com/mod/geckolib/version/aC5KMoNg",
+      "directUrl": null,
+      "verifiedSha1": false
+    },
+    {
+      "path": "mods/Controlling-forge-1.20.1-12.0.2.jar",
+      "officialVersionPage": "https://www.curseforge.com/minecraft/mc-mods/controlling/files/4646682",
+      "directUrl": null,
+      "verifiedSha1": false
+    }
+  ]
+}
