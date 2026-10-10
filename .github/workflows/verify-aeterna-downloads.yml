@@ -1,0 +1,25 @@
+name: Verify Aeterna mod downloads
+on:
+  workflow_dispatch:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: test/manifestes-v1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify downloaded files against SHA-1 and size
+        run: node scripts/verify-downloads.js
+      - name: Upload verification report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: aeterna-download-verification
+          path: manifest/verification-telechargements.json
+          if-no-files-found: warn
