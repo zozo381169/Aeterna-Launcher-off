@@ -1,0 +1,19 @@
+name: Discover exact Modrinth files
+on:
+  workflow_dispatch:
+jobs:
+  match:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: node scripts/resolve-modrinth.js
+      - uses: actions/upload-artifact@v4
+        with:
+          name: modrinth-hash-match-report
+          path: manifest/modrinth-rapport.json
+          if-no-files-found: error
