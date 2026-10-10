@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-10",
+  "purpose": "Official file references; not validated binary download URLs",
+  "files": [
+    {
+      "path": "mods/sophisticatedcore-1.20.1-1.3.73.2192.jar",
+      "officialFilePage": "https://www.curseforge.com/minecraft/mc-mods/sophisticated-core/files/8503031",
+      "curseforgeProjectId": 618298,
+      "curseforgeFileId": 8503031,
+      "status": "exact-filename-confirmed-sha1-pending"
+    },
+    {
+      "path": "mods/sophisticatedbackpacks-1.20.1-3.24.62.2017.jar",
+      "officialFilePage": "https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks/files/8503063",
+      "curseforgeFileId": 8503063,
+      "status": "exact-filename-confirmed-sha1-pending"
+    },
+    {
+      "path": "mods/easy_npc-forge-1.20.1-7.4.1.jar",
+      "officialFilesPage": "https://www.curseforge.com/minecraft/mc-mods/easy-npc-core/files/all?version=1.20.1",
+      "status": "project-identified-sha1-pending"
+    },
+    {
+      "path": "mods/easy_npc_bundle-forge-1.20.1-7.4.1.jar",
+      "officialFilesPage": "https://www.curseforge.com/minecraft/mc-mods/easy-npc/files/all?version=1.20.1",
+      "status": "project-identified-sha1-pending"
+    },
+    {
+      "path": "mods/easy_npc_config_ui-forge-1.20.1-7.4.1.jar",
+      "officialFilesPage": "https://www.curseforge.com/minecraft/mc-mods/easy-npc-config-ui/files/all?version=1.20.1",
+      "status": "project-identified-sha1-pending"
+    }
+  ],
+  "installationNotes": [
+    "Easy NPC Bundle does not embed Core and Config UI: all three are needed when using manually managed files.",
+    "No CurseForge file-page URL is a verified direct JAR download.",
+    "Do not alter manifest/manifest.json or set preparation URL until actual binary matches SHA-1 and size."
+  ]
+}
