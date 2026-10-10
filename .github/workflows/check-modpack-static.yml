@@ -1,0 +1,24 @@
+name: Aeterna static modpack checks
+on:
+  workflow_dispatch:
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: test/manifestes-v1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check manifest filenames, hashes, sizes and duplicates
+        run: node scripts/check-modpack-static.js
+      - name: Upload audit
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: aeterna-static-modpack-audit
+          path: manifest/controle-statique-rapport.json
+          if-no-files-found: warn
