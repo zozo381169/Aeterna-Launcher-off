@@ -1,0 +1,20 @@
+{
+  "generatedAt": "2026-10-10T16:59:50.416Z",
+  "source": "aeterna-maven-sources-report.zip",
+  "results": [
+    {
+      "path": "mods/geckolib-forge-1.20.1-4.8.4.jar",
+      "status": "different-file",
+      "expectedSize": 1038209,
+      "actualSize": 1038208,
+      "actualSha1": "35153b92ee86becebbf3b0b2559e2bc9ee8d16fb",
+      "note": "Maven candidate differs; do not add URL"
+    },
+    {
+      "path": "mods/voicechat-forge-1.20.1-2.6.21.jar",
+      "status": "HTTP 404",
+      "note": "Candidate URL unavailable; do not add URL"
+    }
+  ],
+  "verifiedNewSources": 0
+}
