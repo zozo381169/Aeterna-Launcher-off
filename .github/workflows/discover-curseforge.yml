@@ -1,0 +1,27 @@
+name: Discover CurseForge exact file metadata
+on:
+  workflow_dispatch:
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: test/manifestes-v1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Query CurseForge metadata by SHA-1 and size
+        env:
+          CURSEFORGE_API_KEY: ${{ secrets.CURSEFORGE_API_KEY }}
+        run: node scripts/discover-curseforge.js
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: aeterna-curseforge-report
+          path: manifest/curseforge-rapport.json
+          if-no-files-found: warn
