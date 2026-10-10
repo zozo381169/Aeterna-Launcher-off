@@ -1,0 +1,31 @@
+name: Etat distribution Aeterna
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - test/manifestes-v1
+    paths:
+      - manifest/manifest-preparation-108.json
+      - scripts/etat-distribution.js
+      - .github/workflows/etat-distribution-aeterna.yml
+permissions:
+  contents: read
+jobs:
+  rapport:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Recuperer le projet
+        uses: actions/checkout@v4
+      - name: Produire le rapport de distribution
+        id: audit
+        shell: bash
+        run: |
+          node scripts/etat-distribution.js > etat-distribution.json || echo "incomplete=true" >> "$GITHUB_OUTPUT"
+          cat etat-distribution.json
+          node -e 'const r=require("./etat-distribution.json"); const fs=require("fs"); fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, "## Aeterna — distribution des mods\n\n| Controle | Valeur |\n|---|---:|\n| Fichiers attendus | "+r.expected+" |\n| Fichiers inventories | "+r.present+" |\n| Liens renseignes | "+r.downloadable+" |\n| Liens manquants | "+r.unresolved+" |\n| Pret pour installation publique | "+(r.readyForPublicInstall?"Oui":"Non")+" |\n\nLes liens ne sont pas verifies par telechargement dans cet audit.\n");'
+      - name: Archiver le rapport
+        uses: actions/upload-artifact@v4
+        with:
+          name: aeterna-etat-distribution
+          path: etat-distribution.json
+          retention-days: 30
