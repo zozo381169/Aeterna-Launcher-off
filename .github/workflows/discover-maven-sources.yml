@@ -1,0 +1,25 @@
+name: Discover GeckoLib and Voice Chat sources
+on:
+  workflow_dispatch:
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: test/manifestes-v1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Probe official Maven candidates
+        run: node scripts/discover-maven-sources.js
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: aeterna-maven-sources-report
+          path: manifest/maven-sources-rapport.json
+          if-no-files-found: warn
