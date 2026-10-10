@@ -1,0 +1,654 @@
+{
+  "minecraftVersion": "1.20.1",
+  "files": [
+    {
+      "path": "mods/CreativeCore_FORGE_v2.12.39_mc1.20.1.jar",
+      "url": null,
+      "size": 1144128,
+      "sha1": "aef9a8ebdf0be50b6bd8da8ab4153f5085f71a80"
+    },
+    {
+      "path": "mods/cupboard-1.20.1-3.9.jar",
+      "url": null,
+      "size": 31724,
+      "sha1": "b44f4d66a62f2accca149b22a5418b9c92c6c9cc"
+    },
+    {
+      "path": "mods/dynamiclights-1.20.1.2.jar",
+      "url": null,
+      "size": 49564,
+      "sha1": "19a5b772e1b6ca15cca8db6f201884459f37a173"
+    },
+    {
+      "path": "mods/easy_npc-forge-1.20.1-7.4.1.jar",
+      "url": null,
+      "size": 2270248,
+      "sha1": "4c2cd233e307a5a6aed7860eaf1947c7686b349c"
+    },
+    {
+      "path": "mods/easy_npc_bundle-forge-1.20.1-7.4.1.jar",
+      "url": null,
+      "size": 25438,
+      "sha1": "cee00e8d676c1f71c6182100687570544a29e3cd"
+    },
+    {
+      "path": "mods/easy_npc_config_ui-forge-1.20.1-7.4.1.jar",
+      "url": null,
+      "size": 978860,
+      "sha1": "061a7f6b5c3eba30846919dc567482c5da67733d"
+    },
+    {
+      "path": "mods/embeddium-0.3.31+mc1.20.1.jar",
+      "url": null,
+      "size": 1320675,
+      "sha1": "bb2fa8f3e493af16af9160d049f96c614a1faf2f"
+    },
+    {
+      "path": "mods/epic-knights-1.20.1-forge-10.11.jar",
+      "url": null,
+      "size": 2913733,
+      "sha1": "b76f56523dcde7ae30f4a3c299b1d104348b92eb"
+    },
+    {
+      "path": "mods/epic-knights-addon-1.20.x-forge-2.6.jar",
+      "url": null,
+      "size": 2012821,
+      "sha1": "c5d284743d3d59a7ca4cdfdf42e4a01afb10e146"
+    },
+    {
+      "path": "mods/epic-knights-antique-legacy-1.20.x-forge-1.13.jar",
+      "url": null,
+      "size": 5434731,
+      "sha1": "de812ad140b67bbace4ef7be33e035c7e1beca89"
+    },
+    {
+      "path": "mods/epic-knights-slavic-armory-1.20.x-forge-2.1.jar",
+      "url": null,
+      "size": 1007892,
+      "sha1": "e54539d7eee96e5441db89ac580bcb4fc3ae534a"
+    },
+    {
+      "path": "mods/epichunt-forge-1.4.2.jar",
+      "url": null,
+      "size": 4345866,
+      "sha1": "d0e22581436d096f4d59e2b3822dcf7e4ca15ccf"
+    },
+    {
+      "path": "mods/expandability-9.0.4.jar",
+      "url": null,
+      "size": 80765,
+      "sha1": "2ea3c2ec654e11a5548f33d0d733aa6ecd9a0d6d"
+    },
+    {
+      "path": "mods/fantasy_armor-forge-1.2.4-1.20.1.jar",
+      "url": null,
+      "size": 544856,
+      "sha1": "546cf8e9e7d047792c01f66e8c50d1e475fd1aad"
+    },
+    {
+      "path": "mods/fantasy_weapons-forge-0.4-1.20.1.jar",
+      "url": null,
+      "size": 592319,
+      "sha1": "a2baf193c557e742cd00d314b9061e2848b7f24a"
+    },
+    {
+      "path": "mods/FarmersDelight-1.20.1-1.3.2.jar",
+      "url": null,
+      "size": 3313327,
+      "sha1": "397763ae36dc2e0f526e0338c875850437580157"
+    },
+    {
+      "path": "mods/fragmentum-forge-1.20.1-1.5.2.jar",
+      "url": null,
+      "size": 2737065,
+      "sha1": "d90de61cab08194a606246f1ac7677cebfcb7c59"
+    },
+    {
+      "path": "mods/ftb-library-forge-2001.2.13.jar",
+      "url": null,
+      "size": 780558,
+      "sha1": "a5427d5ff07eb044144ed0b54308370d88bce17e"
+    },
+    {
+      "path": "mods/ftb-quests-forge-2001.4.22.jar",
+      "url": null,
+      "size": 1255469,
+      "sha1": "70f3bd771ab3b5921ce1ff5f14166fab694ca1aa"
+    },
+    {
+      "path": "mods/ftb-teams-forge-2001.3.2.jar",
+      "url": null,
+      "size": 252579,
+      "sha1": "c49023f5d471aa1ba7fc624d2565fe9e82b7117e"
+    },
+    {
+      "path": "mods/geckolib-forge-1.20.1-4.8.4.jar",
+      "url": null,
+      "size": 1038209,
+      "sha1": "81982cc287f80ffabb2fd36d22cc95e4255c739d"
+    },
+    {
+      "path": "mods/GlitchCore-forge-1.20.1-0.0.1.1.jar",
+      "url": null,
+      "size": 87550,
+      "sha1": "1a0aaf7c33b9acb26bf75899a43e8941cac1f6e7"
+    },
+    {
+      "path": "mods/hammers-2.0-forge-1.20.1 (1).jar",
+      "url": null,
+      "size": 154424,
+      "sha1": "39c8859401ff5905a861cd917b3054e36e563470"
+    },
+    {
+      "path": "mods/immersive_furniture-forge-0.3.3+1.20.1.jar",
+      "url": null,
+      "size": 988737,
+      "sha1": "4e7a47513025ab597f5894aa48575a29e686f434"
+    },
+    {
+      "path": "mods/immersive_melodies-0.6.1+1.20.1-forge.jar",
+      "url": null,
+      "size": 5517554,
+      "sha1": "4b2f3f2ec9449ecaf5edd8b7a48bec854105c645"
+    },
+    {
+      "path": "mods/immersive_paintings-0.6.13+1.20.1-forge.jar",
+      "url": null,
+      "size": 4856103,
+      "sha1": "3f2a668f2235a6a908fde545d140013456b5412f"
+    },
+    {
+      "path": "mods/jei-1.20.1-forge-15.20.0.106.jar",
+      "url": null,
+      "size": 1379220,
+      "sha1": "77928d15d797663846cba44de8f79e4e4c5fdbb7"
+    },
+    {
+      "path": "mods/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+      "url": null,
+      "size": 625185,
+      "sha1": "2019d821bed9071daabed43979433a5473ceee49"
+    },
+    {
+      "path": "mods/Legendary Armory 1.5.3.jar",
+      "url": null,
+      "size": 5686202,
+      "sha1": "41ebe31d168d39b9ebf55df7e368bbaa2ecf2e2e"
+    },
+    {
+      "path": "mods/letsdo-API-forge-1.2.15-forge.jar",
+      "url": null,
+      "size": 1440591,
+      "sha1": "a261043a45097d861a13a63ebdbb0ca350e06a63"
+    },
+    {
+      "path": "mods/letsdo-bakery-forge-1.1.15.jar",
+      "url": null,
+      "size": 1539376,
+      "sha1": "c5cd44088089fca03f3291b851dcb0d00018fecb"
+    },
+    {
+      "path": "mods/letsdo-brewery-forge-1.1.9.jar",
+      "url": null,
+      "size": 2228646,
+      "sha1": "50e5181e734dcfc599aa0eaac376ff4e312f63c2"
+    },
+    {
+      "path": "mods/letsdo-meadow-forge-1.3.25.jar",
+      "url": null,
+      "size": 2676511,
+      "sha1": "da7d934ff35f03279bee6597362f30d2aea7462f"
+    },
+    {
+      "path": "mods/MaFgLib-0.1.14-mc1.20.1.jar",
+      "url": null,
+      "size": 521709,
+      "sha1": "fd18a3d8a9a72ee27cbb709a88c061b2347d2244"
+    },
+    {
+      "path": "mods/mcw-mcwfences-1.2.1-mc1.20.1forge.jar",
+      "url": null,
+      "size": 708634,
+      "sha1": "d24bc6e1ba7f04e058db019ae5ca3d10edd9510a"
+    },
+    {
+      "path": "mods/mcw-mcwwindows-2.4.2-mc1.20.1forge.jar",
+      "url": null,
+      "size": 1320692,
+      "sha1": "214da89b2153d496343bde8626283975e358edbd"
+    },
+    {
+      "path": "mods/meds_and_herbs-1.20.1-2.0.3.jar",
+      "url": null,
+      "size": 3881655,
+      "sha1": "9fcfc73470c7c45387f768fb3e7fa16dc8a6bb6f"
+    },
+    {
+      "path": "mods/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+      "url": null,
+      "size": 37178,
+      "sha1": "e0942d396a70c09038e6c2e5e1da6505178249b8"
+    },
+    {
+      "path": "mods/mobplayeranimator-forge-1.20.1-1.3.3-all.jar",
+      "url": null,
+      "size": 223397,
+      "sha1": "5767ecee24e34efb138403a45de1589e38ddc624"
+    },
+    {
+      "path": "mods/monolib-forge-1.20.1-4.0.2.jar",
+      "url": null,
+      "size": 173874,
+      "sha1": "54b342e2fa8ec915a78016b9aecffd3d95d5216a"
+    },
+    {
+      "path": "mods/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+      "url": null,
+      "size": 76237,
+      "sha1": "d751153e722a4e014691c83f39f5b07c6ec5333c"
+    },
+    {
+      "path": "mods/music_disc_maker-3.0.2+forge-1.20.1.jar",
+      "url": null,
+      "size": 34651712,
+      "sha1": "9e8d7094d63ecb6ab0421237213d798cd85749df"
+    },
+    {
+      "path": "mods/musketmod-1.20.1-forge-1.5.4.jar",
+      "url": null,
+      "size": 448661,
+      "sha1": "44ed6aa820e86e9802ad917d4eddda5877982e5a"
+    },
+    {
+      "path": "mods/oculus-mc1.20.1-1.8.0.jar",
+      "url": null,
+      "size": 2851119,
+      "sha1": "984f774e71790deaec674c7587bd24e0711871b2"
+    },
+    {
+      "path": "mods/oresandmetals-2.0.3-forge+1.20.1.jar",
+      "url": null,
+      "size": 498140,
+      "sha1": "e13e81c0888b9a72cc58710879232c469d7bda46"
+    },
+    {
+      "path": "mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar",
+      "url": null,
+      "size": 181437,
+      "sha1": "16808f94a41d45d8e986b4e4ea6b02ba57fa058a"
+    },
+    {
+      "path": "mods/Quick Skin - Forge - 1.20.1-2.6.2.4.jar",
+      "url": null,
+      "size": 3793684,
+      "sha1": "ace85ce63a791ae84d323d469d0b76003ab32718"
+    },
+    {
+      "path": "mods/ranksandtitles-1.2.0.jar",
+      "url": null,
+      "size": 68848,
+      "sha1": "3a9320d0a36029dc1113792d88de9edd6f7a622c"
+    },
+    {
+      "path": "mods/Recruits Siege Compatibility-2.1.0.jar",
+      "url": null,
+      "size": 77665,
+      "sha1": "562c502cac57f4e6c437a99c7c6888e364446405"
+    },
+    {
+      "path": "mods/recruits-1.20.1-1.15.2.jar",
+      "url": null,
+      "size": 2811101,
+      "sha1": "8d2ed3f0ab18c67a1d9394526bcae47b3ec162ab"
+    },
+    {
+      "path": "mods/resourcefullib-forge-1.20.1-2.1.29.jar",
+      "url": null,
+      "size": 432753,
+      "sha1": "6fc590a7c56a720fec57e290cbb0a106efbb3ffa"
+    },
+    {
+      "path": "mods/rpa-1.6.1-forge-1.20.1.jar",
+      "url": null,
+      "size": 4574333,
+      "sha1": "3b8e222a2db8666f039b6b50ec4df11d212c52de"
+    },
+    {
+      "path": "mods/scrollwright-1.20.1-0.2.1.jar",
+      "url": null,
+      "size": 175741,
+      "sha1": "8a866341b6f6b6b6b37776dff2ae66a4155b8ac3"
+    },
+    {
+      "path": "mods/Searchables-forge-1.20.1-1.0.3.jar",
+      "url": null,
+      "size": 77732,
+      "sha1": "ed5a23ec30c90fd06b3f1d8140614028e1fafaee"
+    },
+    {
+      "path": "mods/SereneSeasons-forge-1.20.1-9.1.0.3.jar",
+      "url": null,
+      "size": 160885,
+      "sha1": "e553c2a50dc08d7b8b2aee6da1db0dc156fe961a"
+    },
+    {
+      "path": "mods/serializer_debug-1.0.1.jar",
+      "url": null,
+      "size": 400461,
+      "sha1": "2eb23fc7753d4c6e1621617501eea366fd1a0bed"
+    },
+    {
+      "path": "mods/siege-machines-1.20.1-forge-1.39.jar",
+      "url": null,
+      "size": 1973951,
+      "sha1": "0b18809ea67014f527984fd07ca01c444beab03c"
+    },
+    {
+      "path": "mods/SiegeSystemFix-1.0.0.jar",
+      "url": null,
+      "size": 19421,
+      "sha1": "27252f53af6822f466227bb7d54043583631b8e3"
+    },
+    {
+      "path": "mods/siegeweapons-1.20.1-0.2.5.jar",
+      "url": null,
+      "size": 1040867,
+      "sha1": "f4ae32159b78d6d5e9f1c11588107678cd1151bd"
+    },
+    {
+      "path": "mods/siegeworks-0.7.0-fix.2.jar",
+      "url": null,
+      "size": 2098580,
+      "sha1": "9d8eb2be1a3e7de1647087af0e98edd676de1e0f"
+    },
+    {
+      "path": "mods/sit-1.20.1-1.3.5.jar",
+      "url": null,
+      "size": 14510,
+      "sha1": "228fa17d1bbacbc3e49c20e6d9b91050011f6ee2"
+    },
+    {
+      "path": "mods/skinlayers3d-forge-1.11.2-mc1.20.1.jar",
+      "url": null,
+      "size": 2168901,
+      "sha1": "473b49e775f4c9dd746929f20c33f8132b86f235"
+    },
+    {
+      "path": "mods/smallships-forge-1.20.1-2.0.0-b1.4.jar",
+      "url": null,
+      "size": 1816687,
+      "sha1": "9998ddc8a278e0b87ab642d289ae2a1e3dbebef6"
+    },
+    {
+      "path": "mods/smallshipsheraldry-0.3.0+mc.1.20.1-forge.jar",
+      "url": null,
+      "size": 334378,
+      "sha1": "e29958871c4c4935005cf5d46323127f4206ea68"
+    },
+    {
+      "path": "mods/sodiumdynamiclights-forge-1.0.10-1.20.1.jar",
+      "url": null,
+      "size": 511601,
+      "sha1": "d27524e85bed0f0af83c03be46f9ca3eb02a1be9"
+    },
+    {
+      "path": "mods/sodiumoptionsapi-forge-1.0.10-1.20.1.jar",
+      "url": null,
+      "size": 443978,
+      "sha1": "7529fbf938787ed13a251cbf40936f8c29ec4b6c"
+    },
+    {
+      "path": "mods/sophisticatedbackpacks-1.20.1-3.24.62.2017.jar",
+      "url": null,
+      "size": 1130880,
+      "sha1": "fe4b90ab03b61ac0901125ce36a65cd188ea9c15"
+    },
+    {
+      "path": "mods/sophisticatedcore-1.20.1-1.3.73.2192.jar",
+      "url": null,
+      "size": 1622705,
+      "sha1": "ec4403509162632bbad7f6c7be382a3fa6381a30"
+    },
+    {
+      "path": "mods/terrarialike_respawns-1.0.2-forge-1.20.1.jar",
+      "url": null,
+      "size": 28411,
+      "sha1": "fe2839c588b08a12466695b4acfa94744a851cf4"
+    },
+    {
+      "path": "mods/tl_skin_cape_forge_1.20_1.20.1-1.32.jar",
+      "url": null,
+      "size": 715179,
+      "sha1": "b7df8fec6b076b9b1755754f03fde08349d221d1"
+    },
+    {
+      "path": "mods/twoplayersonehorse-forge-1.20.1-1.0.3.jar",
+      "url": null,
+      "size": 24342,
+      "sha1": "95c9c0e3f5e38b756fd7e4d77a9f029d920602ef"
+    },
+    {
+      "path": "mods/voicechat-forge-1.20.1-2.6.21.jar",
+      "url": null,
+      "size": 4918879,
+      "sha1": "77ae96b41c9328213659991c113a6e13c95724ba"
+    },
+    {
+      "path": "mods/workers-1.20.1-2.0.3.jar",
+      "url": null,
+      "size": 1316715,
+      "sha1": "1f68527132995485145433b07cd459fb4b602d06"
+    },
+    {
+      "path": "mods/xaeroworldmap-forge-1.20.1-1.44.2.jar",
+      "url": null,
+      "size": 1421224,
+      "sha1": "d7cd24554d9c361b2d8d3efac2cb1408f118917d"
+    },
+    {
+      "path": "mods/yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar",
+      "url": null,
+      "size": 1105891,
+      "sha1": "644731e321c53a35a0b3177a3cc6347fe38002f4"
+    },
+    {
+      "path": "mods/zmedievalmusic-1.20.1-2.2.jar",
+      "url": null,
+      "size": 304415885,
+      "sha1": "8352744a85f8c6f95e2d9cddb7fed09896c785cb"
+    },
+    {
+      "path": "mods/aeterna-1.0.2.jar",
+      "url": null,
+      "size": 1277387,
+      "sha1": "d713841f9cc2c9dd3cf26335b8419faaf5e7c27f"
+    },
+    {
+      "path": "mods/AeternaCorbeaux-Client-1.0.0.jar",
+      "url": null,
+      "size": 22575,
+      "sha1": "439d38b55aa7a75c1bde1d87cb0a32289bf1bf63"
+    },
+    {
+      "path": "mods/AeternaHUD-1.0.0-taille-C.jar",
+      "url": null,
+      "size": 916899,
+      "sha1": "44d0a3e64a3974d7802356d4fd222ef24353ad4f"
+    },
+    {
+      "path": "mods/AeternaInventory-1.0.0.jar",
+      "url": null,
+      "size": 2541347,
+      "sha1": "5090057431c8f71d7e901efad61b65daf412c7b4"
+    },
+    {
+      "path": "mods/AeternaOfficiel-forge-1.4.6+1.20.1.jar",
+      "url": null,
+      "size": 304769,
+      "sha1": "06d5dad3c1c96bdb8e3498d1330ac59c01eb744e"
+    },
+    {
+      "path": "mods/alcohol_mod_okaypy-1.0.4-forge-1.20.1.jar",
+      "url": null,
+      "size": 1086792,
+      "sha1": "409ce55f19093568dbb9a773589bc43bfd73c0bd"
+    },
+    {
+      "path": "mods/alexsmobs-1.22.9.jar",
+      "url": null,
+      "size": 26350793,
+      "sha1": "dbf93d2f1da19e16739e91e8ea0fc6f4bc2f228f"
+    },
+    {
+      "path": "mods/AmbientSounds_FORGE_v6.3.8_mc1.20.1.jar",
+      "url": null,
+      "size": 53429226,
+      "sha1": "87ea0cd8ec56763185ee0db09eec7c676969e4da"
+    },
+    {
+      "path": "mods/animal_armor_trims-forge-1.20.1-2.3.1.jar",
+      "url": null,
+      "size": 272315,
+      "sha1": "5a1b386d7a90c80e268061acc0121bbc05cdbaf7"
+    },
+    {
+      "path": "mods/appleskin-forge-mc1.20.1-2.5.1.jar",
+      "url": null,
+      "size": 47428,
+      "sha1": "81919356f84eab14258db98924b66c3c38e372b1"
+    },
+    {
+      "path": "mods/architectury-9.2.14-forge.jar",
+      "url": null,
+      "size": 580602,
+      "sha1": "a52918a500ff421180a1cbd1a0cabee712134ec4"
+    },
+    {
+      "path": "mods/ArmorHudDurabilityBars-5.0.1 Forge-MC1.20.1.jar",
+      "url": null,
+      "size": 79532,
+      "sha1": "8280a7dd70e92cdc2c3243083aa5147e1d2ab80f"
+    },
+    {
+      "path": "mods/astikorcartsredux-1.2.3.jar",
+      "url": null,
+      "size": 530068,
+      "sha1": "62c693ee857ff6bd39e7582d02b57874ec0aa8ac"
+    },
+    {
+      "path": "mods/athena-forge-1.20.1-3.1.2.jar",
+      "url": null,
+      "size": 91808,
+      "sha1": "2acee24454af859988a691f0506271a465f68f7b"
+    },
+    {
+      "path": "mods/bakeries-1.20.1-forge-1.3.2.jar",
+      "url": null,
+      "size": 2793567,
+      "sha1": "f6766022dc474d379dee9975d25f34feefb8d9b8"
+    },
+    {
+      "path": "mods/betsyross-2.1.2+mc.1.20.1-forge.jar",
+      "url": null,
+      "size": 355085,
+      "sha1": "fac4bd2acb03ce795a62fa46db0d7aabf9232670"
+    },
+    {
+      "path": "mods/bettercombat-forge-1.8.6+1.20.1.jar",
+      "url": null,
+      "size": 1050118,
+      "sha1": "70c20cd81a4051b2ad4289ff6522e80b397d7b3d"
+    },
+    {
+      "path": "mods/bettermobcombat-recruitsfix-1.20.1-1.3.1.jar",
+      "url": null,
+      "size": 146704,
+      "sha1": "bfddda8c3efc11803a33220fdc99003d3d2ae268"
+    },
+    {
+      "path": "mods/biomemusic-1.20.1-4.1.jar",
+      "url": null,
+      "size": 47528,
+      "sha1": "f802fa65812616761afd6a292c2b431955caec9d"
+    },
+    {
+      "path": "mods/BOMD-Forge-1.20.1-1.1.2.jar",
+      "url": null,
+      "size": 1753623,
+      "sha1": "2caa8739ed9702c5ad87b6c5436432f8be755217"
+    },
+    {
+      "path": "mods/burnt_basic-1.10.5-forge-1.20.1.jar",
+      "url": null,
+      "size": 21557307,
+      "sha1": "da3d7b9501c6171c751cdd0cf48f9a8ce7b9e718"
+    },
+    {
+      "path": "mods/caravans-forge-1.20.1-3.0.0.jar",
+      "url": null,
+      "size": 213338,
+      "sha1": "7ab26bafa46b36e92b7cd28c7a7de2abdad2d39c"
+    },
+    {
+      "path": "mods/catfighting-forge-1.20.1-1.2.0.jar",
+      "url": null,
+      "size": 291656,
+      "sha1": "6356e8ebf911bb6938ef38215d5b32c4e5f3b08c"
+    },
+    {
+      "path": "mods/CerbonsAPI-Forge-1.20.1-1.1.0.jar",
+      "url": null,
+      "size": 241148,
+      "sha1": "83cccb66e679d72345a5194e4ca520f647bc97e6"
+    },
+    {
+      "path": "mods/chipped-forge-1.20.1-3.0.7.jar",
+      "url": null,
+      "size": 15060263,
+      "sha1": "25ee2a0846059d8f21d28b94b7e0229b60cb5499"
+    },
+    {
+      "path": "mods/citadel-2.6.3-1.20.1.jar",
+      "url": null,
+      "size": 3185275,
+      "sha1": "fb0b1fa96ce28e4be77b38ad95d83c3da7ec8316"
+    },
+    {
+      "path": "mods/classicandsimplestatusbars-Forge-1.1.jar",
+      "url": null,
+      "size": 280704,
+      "sha1": "35526a140cdd996149f1f69eae1fadb02e1fba96"
+    },
+    {
+      "path": "mods/cloth-config-11.1.136-forge.jar",
+      "url": null,
+      "size": 1181413,
+      "sha1": "c65d07748acc57ceb45d53b3964368b84f34d54f"
+    },
+    {
+      "path": "mods/ColdSweat-2.4.3.2.jar",
+      "url": null,
+      "size": 2726263,
+      "sha1": "7b791285fa8d0a324cfbe41602347e5ecabe3b15"
+    },
+    {
+      "path": "mods/Controlling-forge-1.20.1-12.0.2.jar",
+      "url": null,
+      "size": 115280,
+      "sha1": "f6d3cdd3ec68c5590cf5b2e89c38dbf031824bfd"
+    },
+    {
+      "path": "mods/corpse-forge-1.20.1-1.0.23.jar",
+      "url": null,
+      "size": 245644,
+      "sha1": "843b16ca88bc5c390bb22a2a84437e6bffdd43dd"
+    }
+  ],
+  "server": {
+    "host": "play2.eternalzero.cloud",
+    "port": 26506
+  },
+  "modpackVersion": "0.1.0-test",
+  "schemaVersion": 1,
+  "forgeVersion": "47.4.10"
+}
