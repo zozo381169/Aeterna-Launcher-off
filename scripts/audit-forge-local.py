@@ -31,8 +31,8 @@ def main():
                         mid=mod.get("modId")
                         if mid:
                             if mid not in info["mods"]:
-                        info["mods"].append(mid)
-                        mod_ids[mid].append(name)
+                                info["mods"].append(mid)
+                                mod_ids[mid].append(name)
                     for modid, deps in parsed.get("dependencies",{}).items():
                         for dep in deps:
                             info["dependencies"].append({"for":modid,"modId":dep.get("modId"),"mandatory":dep.get("mandatory"),"versionRange":dep.get("versionRange"),"side":dep.get("side")})
