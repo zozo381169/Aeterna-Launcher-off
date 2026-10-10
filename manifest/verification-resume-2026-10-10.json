@@ -1,0 +1,10 @@
+{
+  "checkedAt": "2026-10-10T16:48:41.488Z",
+  "total": 108,
+  "verified": 73,
+  "mismatch": 0,
+  "errors": 0,
+  "missing": 35,
+  "source": "aeterna-download-verification.zip (GitHub Actions artifact)",
+  "note": "Résumé des vérifications téléchargées; 35 fichiers restent sans URL. Ne pas activer le manifeste complet."
+}
