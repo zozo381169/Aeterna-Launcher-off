@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "stage": "official-file-page-discovery",
+  "note": "Project file pages are NOT direct download URLs and have NOT passed SHA-1 verification. No changes to active manifest.",
+  "candidates": [
+    {
+      "path": "mods/sophisticatedbackpacks-1.20.1-3.24.62.2017.jar",
+      "officialFilePage": "https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks/files/8503063",
+      "curseforgeFileId": 8503063,
+      "status": "exact-filename-on-official-page"
+    },
+    {
+      "path": "mods/easy_npc-forge-1.20.1-7.4.1.jar",
+      "officialFilesPage": "https://www.curseforge.com/minecraft/mc-mods/easy-npc-core/files/all?version=1.20.1",
+      "status": "project-identified-exact-file-not-hash-verified"
+    },
+    {
+      "path": "mods/easy_npc_bundle-forge-1.20.1-7.4.1.jar",
+      "officialFilesPage": "https://www.curseforge.com/minecraft/mc-mods/easy-npc/files/all?version=1.20.1",
+      "status": "project-identified-exact-file-not-hash-verified"
+    },
+    {
+      "path": "mods/easy_npc_config_ui-forge-1.20.1-7.4.1.jar",
+      "officialFilesPage": "https://www.curseforge.com/minecraft/mc-mods/easy-npc-config-ui/files/all?version=1.20.1",
+      "status": "candidate-project-page-not-hash-verified"
+    }
+  ],
+  "requirements": [
+    "Keep all versions unchanged",
+    "Check exact byte count and SHA-1 against manifest",
+    "Respect CurseForge download policies and mod licenses",
+    "Do not assume bundle alone contains Core and Config UI"
+  ]
+}
