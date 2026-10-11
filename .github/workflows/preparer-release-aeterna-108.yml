@@ -1,0 +1,35 @@
+name: Preparer release Aeterna 108 mods
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  publier:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Recuperer les scripts et empreintes de reference
+        uses: actions/checkout@v4
+        with:
+          ref: test/manifestes-v1
+      - name: Recuperer les archives de la release de depot
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p staging-aeterna
+          gh release download mods-aeterna-depot-108 --repo "${{ github.repository }}" --dir staging-aeterna --pattern '*.zip' --pattern '*.jar'
+      - name: Verifier exactement les 108 fichiers
+        run: python3 scripts/preparer-release-108.py
+      - name: Publier les fichiers verifies
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view mods-aeterna-v1 --repo "${{ github.repository }}" >/dev/null 2>&1 || gh release create mods-aeterna-v1 --repo "${{ github.repository }}" --title "Aeterna - Mods 108 v1" --notes "108 mods verifies par taille et SHA-1 contre l'inventaire original." --draft
+          gh release upload mods-aeterna-v1 release-aeterna-108/*.jar --repo "${{ github.repository }}" --clobber
+      - name: Conserver le rapport
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: rapport-release-aeterna-108
+          path: manifest/rapport-release-108.json
+          if-no-files-found: warn
