@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "modpackVersion": "1.0.5",
+  "modpackVersion": "1.0.6",
   "minecraftVersion": "1.20.1",
   "forgeVersion": "47.4.10",
   "server": {
@@ -649,12 +649,9 @@
       "url": "https://github.com/zozo381169/Aeterna-Launcher-off/releases/download/mods-aeterna-v1/corpse-forge-1.20.1-1.0.23.jar",
       "size": 245644,
       "sha1": "843b16ca88bc5c390bb22a2a84437e6bffdd43dd"
-    },
-    {
-      "path": "mods/MenuAeterna-Final-v2.jar",
-      "url": "https://github.com/zozo381169/Aeterna-Launcher-off/releases/download/mods-aeterna-v1/MenuAeterna-Final-v2.jar",
-      "size": 3554568,
-      "sha1": "9e60fc493f5f358d80670f57f1f3d6b639b4d171"
     }
+  ],
+  "removeFiles": [
+    "mods/MenuAeterna-Final-v2.jar"
   ]
 }
