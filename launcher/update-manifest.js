@@ -33,6 +33,8 @@ function validateFile(entry) {
 async function ensureSafeParentDirs(root, destination) {
   const base = path.resolve(root);
   await fsp.mkdir(base, { recursive: true });
+  const rootStat = await fsp.lstat(base);
+  if (rootStat.isSymbolicLink() || !rootStat.isDirectory()) throw new Error('Dossier de jeu non sûr : ' + base);
   const relative = path.relative(base, path.dirname(destination));
   let current = base;
   for (const part of relative.split(path.sep).filter(Boolean)) {
@@ -146,6 +148,7 @@ async function applyManifest({ manifestUrl, gameDir, selectedOptionalMods = [], 
     }
     const tmp = file.destination + '.aeterna-download';
     try {
+      await fsp.rm(tmp, { force: true });
       const download = await fetch(file.url);
       if (!download.ok || !download.body) throw new Error('Téléchargement HTTP ' + download.status + ' : ' + file.path);
       let received = 0;
@@ -157,7 +160,7 @@ async function applyManifest({ manifestUrl, gameDir, selectedOptionalMods = [], 
           cb(null, chunk);
         }
       });
-      await pipeline(Readable.fromWeb(download.body), meter, fs.createWriteStream(tmp, { flags: 'w' }));
+      await pipeline(Readable.fromWeb(download.body), meter, fs.createWriteStream(tmp, { flags: 'wx' }));
       if (received !== file.size || (await sha1(tmp)).toLowerCase() !== file.sha1.toLowerCase()) {
         throw new Error('Vérification taille/SHA-1 échouée : ' + file.path);
       }
