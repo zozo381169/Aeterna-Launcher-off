@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "modpackVersion": "1.0.6",
+  "modpackVersion": "1.0.7",
   "minecraftVersion": "1.20.1",
   "forgeVersion": "47.4.10",
   "server": {
-    "host": "play2.eternalzero.cloud",
-    "port": 26506
+    "host": "38.147.106.158",
+    "port": 35150
   },
   "files": [
     {
@@ -653,5 +653,181 @@
   ],
   "removeFiles": [
     "mods/MenuAeterna-Final-v2.jar"
+  ],
+  "links": {
+    "discord": "https://discord.gg/4pbGYUH7td"
+  },
+  "news": [
+    {
+      "title": "Aeterna Launcher — manifeste 1.0.7",
+      "date": "2026-10-20",
+      "body": "Le manifeste centralise les fichiers du modpack, les options facultatives et les règles de nettoyage. Cette version reste en test tant que le branchement au launcher Electron distribué n’a pas été vérifié."
+    }
+  ],
+  "authNotice": {
+    "title": "Connexion à Aeterna",
+    "body": "Si le serveur demande une authentification, suis les instructions affichées en jeu et garde ton mot de passe privé. Ne communique jamais ton mot de passe à un membre du staff."
+  },
+  "deleteExtraIn": [
+    "mods"
+  ],
+  "optionalMods": [
+    {
+      "id": "xaeros-minimap",
+      "requires": [],
+      "name": "Minimap de Xaero",
+      "description": "Une minimap dans le coin de l’écran, avec les points de repère que tu poses.",
+      "version": "forge-1.20.1-26.4.2",
+      "path": "mods/xaerominimap-forge-1.20.1-26.4.2.jar",
+      "url": "https://cdn.modrinth.com/data/1bokaNcj/versions/A1JacFsh/xaerominimap-forge-1.20.1-26.4.2.jar",
+      "sha1": "8f5f747a33e787aaa3827b00eb0ad098966499ff",
+      "size": 2195245,
+      "page": "https://modrinth.com/mod/xaeros-minimap"
+    },
+    {
+      "id": "jade",
+      "requires": [],
+      "name": "Jade",
+      "description": "Affiche le nom du bloc ou de la créature que tu regardes, et son état.",
+      "version": "11.13.3+forge",
+      "path": "mods/Jade-1.20.1-Forge-11.13.3.jar",
+      "url": "https://cdn.modrinth.com/data/nvQzSEkH/versions/xJQHCmWJ/Jade-1.20.1-Forge-11.13.3.jar",
+      "sha1": "d08e64e66521d69e083c8525f1fc507f1c202384",
+      "size": 553487,
+      "page": "https://modrinth.com/mod/jade"
+    },
+    {
+      "id": "just-zoom",
+      "requires": [
+        {
+          "id": "konkrete",
+          "name": "Konkrete",
+          "version": "1.8.0-1.20-1.20.1-forge",
+          "path": "mods/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+          "url": "https://cdn.modrinth.com/data/J81TRJWm/versions/skYziQQL/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+          "sha1": "2019d821bed9071daabed43979433a5473ceee49",
+          "size": 625185
+        }
+      ],
+      "name": "Zoom",
+      "description": "Une touche pour zoomer au loin, comme avec une longue-vue.",
+      "version": "2.1.1-1.20.1-forge",
+      "path": "mods/justzoom_forge_2.1.1_MC_1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/iAiqcykM/versions/HrSzoCLd/justzoom_forge_2.1.1_MC_1.20.1.jar",
+      "sha1": "8bbcdfb61e9f0f738af0efff12c93b8f9daf2fb0",
+      "size": 204574,
+      "page": "https://modrinth.com/mod/just-zoom"
+    },
+    {
+      "id": "sound-physics-remastered",
+      "requires": [],
+      "name": "Acoustique réaliste",
+      "description": "Écho dans les grottes, sons étouffés derrière les murs. Très immersif.",
+      "version": "forge-1.20.1-1.5.1",
+      "path": "mods/sound-physics-remastered-forge-1.20.1-1.5.1.jar",
+      "url": "https://cdn.modrinth.com/data/qyVF9oeo/versions/x0sJ9PeR/sound-physics-remastered-forge-1.20.1-1.5.1.jar",
+      "sha1": "944b4673bcab118f411d050b2cd6b693262bb664",
+      "size": 206984,
+      "page": "https://modrinth.com/mod/sound-physics-remastered"
+    },
+    {
+      "id": "legendary-tooltips",
+      "requires": [
+        {
+          "id": "iceberg",
+          "name": "Iceberg",
+          "version": "1.1.25",
+          "path": "mods/Iceberg-1.20.1-forge-1.1.25.jar",
+          "url": "https://cdn.modrinth.com/data/5faXoLqX/versions/BQ8rJPXV/Iceberg-1.20.1-forge-1.1.25.jar",
+          "sha1": "d551ff55814cfb01403b812459ee5a02b020d87b",
+          "size": 134551
+        },
+        {
+          "id": "prism-lib",
+          "name": "Prism",
+          "version": "1.0.5",
+          "path": "mods/Prism-1.20.1-forge-1.0.5.jar",
+          "url": "https://cdn.modrinth.com/data/1OE8wbN0/versions/FFyss87M/Prism-1.20.1-forge-1.0.5.jar",
+          "sha1": "bcb4bbb1052f49ed4fe6e7d5d7f91f68d45c3fe3",
+          "size": 52205
+        }
+      ],
+      "name": "Infobulles améliorées",
+      "description": "Des infobulles d’objets plus lisibles et plus soignées.",
+      "version": "1.4.5",
+      "path": "mods/LegendaryTooltips-1.20.1-forge-1.4.5.jar",
+      "url": "https://cdn.modrinth.com/data/atHH8NyV/versions/JhxD2e6J/LegendaryTooltips-1.20.1-forge-1.4.5.jar",
+      "sha1": "7d83a56572d333ea352706872f565b8b8537085c",
+      "size": 55258,
+      "page": "https://modrinth.com/mod/legendary-tooltips"
+    },
+    {
+      "id": "better-advancements",
+      "requires": [],
+      "name": "Progrès améliorés",
+      "description": "Un écran de progrès plus clair et plus agréable à parcourir.",
+      "version": "0.6.0.73",
+      "path": "mods/BetterAdvancements-Forge-1.20.1-0.6.0.73.jar",
+      "url": "https://cdn.modrinth.com/data/Q2OqKxDG/versions/zKOCnRdK/BetterAdvancements-Forge-1.20.1-0.6.0.73.jar",
+      "sha1": "a62ed641fe95d9fea041dea8689f5a037aece597",
+      "size": 100436,
+      "page": "https://modrinth.com/mod/better-advancements"
+    },
+    {
+      "id": "betterf3",
+      "requires": [],
+      "name": "Écran technique",
+      "description": "Remplace l’écran F3 par un affichage lisible et configurable.",
+      "version": "7.0.2",
+      "path": "mods/BetterF3-7.0.2-Forge-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/xo6HmgWj/BetterF3-7.0.2-Forge-1.20.1.jar",
+      "sha1": "b65cba59e87dc6c6d1aa9c47f09b9996b4e5075d",
+      "size": 468517,
+      "page": "https://modrinth.com/mod/betterf3"
+    },
+    {
+      "id": "toast-control",
+      "requires": [
+        {
+          "id": "placebo",
+          "name": "Placebo",
+          "version": "8.6.3",
+          "path": "mods/Placebo-1.20.1-8.6.3.jar",
+          "url": "https://cdn.modrinth.com/data/tCkE8p2N/versions/6SkuAGoz/Placebo-1.20.1-8.6.3.jar",
+          "sha1": "e85f53de2e582a79ce25ff1df1e7b5b5fc08440f",
+          "size": 282474
+        }
+      ],
+      "name": "Contrôle des notifications",
+      "description": "Choisis quelles notifications apparaissent en haut de l’écran.",
+      "version": "8.0.3",
+      "path": "mods/ToastControl-1.20.1-8.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/CnOG2wlS/versions/q8jNIVj8/ToastControl-1.20.1-8.0.3.jar",
+      "sha1": "e9ef48672f01b076ea3b8c7c5e6a139c2491a67c",
+      "size": 26957,
+      "page": "https://modrinth.com/mod/toast-control"
+    },
+    {
+      "id": "full-brightness-toggle",
+      "requires": [
+        {
+          "id": "collective",
+          "name": "Collective",
+          "version": "1.20.1-8.39-fabric+forge+neo",
+          "path": "mods/collective-1.20.1-8.39.jar",
+          "url": "https://cdn.modrinth.com/data/e0M1UDsY/versions/ZrHXYjUf/collective-1.20.1-8.39.jar",
+          "sha1": "4622cf120fd3eb82972dc6634d6a5910d04e3c91",
+          "size": 745947
+        }
+      ],
+      "name": "Luminosité maximale",
+      "description": "La touche G éclaire tout : grottes, donjons et nuits deviennent parfaitement visibles.",
+      "version": "1.20.1-4.4-fabric+forge+neo",
+      "path": "mods/fullbrightnesstoggle-1.20.1-4.4.jar",
+      "url": "https://cdn.modrinth.com/data/aEK1KhsC/versions/Yu8lFWWG/fullbrightnesstoggle-1.20.1-4.4.jar",
+      "sha1": "1a2b5334bc9ca96ab7ebc977c777ecb1dacc6d03",
+      "size": 29563,
+      "page": "https://modrinth.com/mod/full-brightness-toggle"
+    }
   ]
 }
