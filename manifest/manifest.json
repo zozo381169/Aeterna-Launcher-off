@@ -659,6 +659,11 @@
   },
   "news": [
     {
+      "title": "Tests actu — Aeterna V2",
+      "date": "2026-10-20",
+      "body": "Retrouve ici les nouveautés actuellement en test sur Aeterna V2 : fonctionnalités expérimentales, ajustements du modpack et corrections en cours. Ces éléments peuvent encore évoluer avant leur validation définitive."
+    },
+    {
       "title": "Aeterna Launcher — manifeste 1.0.7",
       "date": "2026-10-20",
       "body": "Le manifeste centralise les fichiers du modpack, les options facultatives et les règles de nettoyage. Cette version reste en test tant que le branchement au launcher Electron distribué n’a pas été vérifié."
