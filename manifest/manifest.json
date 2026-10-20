@@ -659,14 +659,9 @@
   },
   "news": [
     {
-      "title": "Tests actu — Aeterna V2",
+      "title": "Ouverture officielle d’Aeterna",
       "date": "2026-10-20",
-      "body": "Retrouve ici les nouveautés actuellement en test sur Aeterna V2 : fonctionnalités expérimentales, ajustements du modpack et corrections en cours. Ces éléments peuvent encore évoluer avant leur validation définitive."
-    },
-    {
-      "title": "Aeterna Launcher — manifeste 1.0.7",
-      "date": "2026-10-20",
-      "body": "Le manifeste centralise les fichiers du modpack, les options facultatives et les règles de nettoyage. Cette version reste en test tant que le branchement au launcher Electron distribué n’a pas été vérifié."
+      "body": "Les portes d’Aeterna s’ouvrent bientôt ! Prépare ton royaume, rejoins les autres joueurs et écris ton histoire dans cet univers médiéval. Retrouve la communauté sur Discord pour suivre les informations et découvrir les prochaines étapes : https://discord.gg/4pbGYUH7td"
     }
   ],
   "authNotice": {
