@@ -1,8 +1,14 @@
-# Aeterna — mise à jour des fichiers (prototype de test)
+# Aeterna — manifeste et mise à jour (branche de test)
 
-Ce module est une **base Node.js**, non encore reliée à l'interface Electron ni testée sur une installation complète.
+Le manifeste reprend les fonctions utiles du format Aethoria, adaptées à Aeterna :
+- `files` : fichiers obligatoires avec URL HTTPS, taille et SHA-1 ;
+- `optionalMods` : catalogue de mods facultatifs et leurs dépendances (`requires`) ;
+- `keepExisting: true` : conserve un fichier existant sans écraser les réglages locaux ;
+- `removeFiles` : supprime explicitement les chemins listés ;
+- `deleteExtraIn` : nettoie les JAR non référencés dans les dossiers déclarés ;
+- `links`, `news`, `authNotice` : métadonnées destinées à l'interface du launcher.
 
-## Exemple d'intégration dans le processus principal Electron
+## Exemple d'appel côté processus principal Electron
 
 ```js
 const path = require('node:path');
@@ -15,21 +21,19 @@ const manifestUrl = 'https://raw.githubusercontent.com/zozo381169/Aeterna-Launch
 await applyManifest({
   manifestUrl,
   gameDir,
-  onProgress: ({file, bytes, total}) => console.log(file, total ? Math.round(bytes / total * 100) : 100, '%')
+  selectedOptionalMods: ['xaeros-minimap', 'just-zoom'],
+  onProgress: ({ file, bytes, total }) => console.log(file, total ? Math.round(bytes / total * 100) : 100, '%')
 });
 ```
 
-### Entrée attendue dans `manifest/manifest.json`
+## État d'intégration
 
-```json
-{
-  "path": "mods/nom-du-mod.jar",
-  "url": "https://exemple.org/fichier.jar",
-  "sha1": "40 caracteres hexadecimaux",
-  "size": 12345
-}
-```
+Le dépôt accessible ici ne contient pas le code source complet de l'application Electron distribuée : il n'y a notamment pas de `package.json`, de point d'entrée Electron ni de pont IPC/UI dans cette branche. Le manifeste et le module de mise à jour sont préparés, mais `links`, `news`, `authNotice` et la sélection des mods facultatifs ne sont pas encore reliés à l'interface. Il faut intégrer ces appels dans le vrai projet puis effectuer un test Windows avant de dire que le launcher distribué fonctionne avec ces fonctions.
 
-**Important :** ne pas inventer les URLs ni les SHA-1. Vérifier les droits de redistribution des mods. Le module ne supprime pas les mods supplémentaires et n'installe pas Forge. Les manifestes optionnels et shaders sont des catalogues séparés : leur interface et leur logique d'installation restent à intégrer.
+## Précautions
 
-Ce code est un prototype de test : des tests Windows et une revue de sécurité sont nécessaires avant distribution.
+- Le dossier `.aeterna` doit être réservé à cette instance : `deleteExtraIn: ["mods"]` supprime les JAR non référencés dans le catalogue du manifeste.
+- Les fichiers sont vérifiés par taille et SHA-1 avant remplacement.
+- Les fichiers marqués `keepExisting: true` sont conservés s'ils existent déjà.
+- `mods/MenuAeterna-Final-v2.jar` reste explicitement supprimé.
+- Ces modifications sont sur `test/manifestes-v1`, pas sur `main`.
