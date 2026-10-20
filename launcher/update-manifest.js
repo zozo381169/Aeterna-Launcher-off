@@ -46,6 +46,13 @@ async function applyManifest({ manifestUrl, gameDir, onProgress = () => {} }) {
     seen.add(destination);
     return { ...entry, destination };
   });
+  const removeFiles = manifest.removeFiles ?? [];
+  if (!Array.isArray(removeFiles)) throw new Error('removeFiles doit être un tableau');
+  const removals = removeFiles.map(relative => {
+    const destination = resolveSafe(gameDir, relative);
+    if (seen.has(destination)) throw new Error('Un fichier ne peut pas être téléchargé et supprimé : ' + relative);
+    return { relative, destination };
+  });
   const total = files.reduce((sum, f) => sum + f.size, 0);
   let completed = 0;
   for (let i = 0; i < files.length; i++) {
@@ -91,6 +98,18 @@ async function applyManifest({ manifestUrl, gameDir, onProgress = () => {} }) {
       await fsp.rm(tmp, { force: true }).catch(() => {});
     }
   }
-  return { version: manifest.modpackVersion, checked: files.length };
+  let removed = 0;
+  for (const item of removals) {
+    try {
+      const stat = await fsp.lstat(item.destination);
+      if (stat.isSymbolicLink()) throw new Error('Lien symbolique interdit : ' + item.relative);
+      if (!stat.isFile()) throw new Error('Refus de supprimer un élément qui n’est pas un fichier : ' + item.relative);
+      await fsp.rm(item.destination);
+      removed++;
+    } catch (e) {
+      if (e.code !== 'ENOENT') throw e;
+    }
+  }
+  return { version: manifest.modpackVersion, checked: files.length, removed };
 }
 module.exports = { applyManifest, resolveSafe };
