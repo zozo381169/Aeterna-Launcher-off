@@ -1,0 +1,78 @@
+name: Mettre à jour le manifeste des mods
+
+on:
+  push:
+    branches: [mods]
+    paths:
+      - "modpack/mods/**"
+      - ".github/workflows/update-mod-manifest.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-manifest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer la branche mods
+        uses: actions/checkout@v4
+        with:
+          ref: mods
+      - name: Générer le manifeste depuis les fichiers présents
+        shell: bash
+        run: |
+          node <<'NODE'
+          const fs = require('node:fs');
+          const path = require('node:path');
+          const crypto = require('node:crypto');
+
+          const root = 'modpack/mods';
+          const output = 'manifest/manifest-auto.json';
+          const files = [];
+
+          function walk(dir) {
+            if (!fs.existsSync(dir)) return;
+            for (const item of fs.readdirSync(dir, { withFileTypes: true }).sort((a,b) => a.name.localeCompare(b.name))) {
+              const full = path.join(dir, item.name);
+              if (item.isDirectory()) walk(full);
+              else if (item.isFile() && item.name.toLowerCase().endsWith('.jar')) {
+                const bytes = fs.readFileSync(full);
+                const relative = path.relative(root, full).split(path.sep).join('/');
+                files.push({
+                  path: 'mods/' + relative,
+                  url: 'https://raw.githubusercontent.com/zozo381169/Aeterna-Launcher-off/mods/' + full.split(path.sep).map(encodeURIComponent).join('/'),
+                  size: bytes.length,
+                  sha1: crypto.createHash('sha1').update(bytes).digest('hex')
+                });
+              }
+            }
+          }
+          walk(root);
+          if (files.length === 0) {
+            throw new Error('Aucun .jar trouvé dans modpack/mods : manifeste non modifié pour éviter une suppression accidentelle.');
+          }
+
+          const manifest = {
+            schemaVersion: 1,
+            modpackVersion: new Date().toISOString().slice(0, 10) + '.' + process.env.GITHUB_RUN_NUMBER,
+            minecraftVersion: '1.20.1',
+            forgeVersion: '47.4.10',
+            server: { host: 'play2.eternalzero.cloud', port: 26506 },
+            files
+          };
+          fs.mkdirSync(path.dirname(output), { recursive: true });
+          fs.writeFileSync(output, JSON.stringify(manifest, null, 2) + '\n');
+          console.log('Manifeste créé avec ' + files.length + ' mods.');
+          NODE
+      - name: Publier le manifeste généré
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add manifest/manifest-auto.json
+          if git diff --cached --quiet; then
+            echo "Manifeste déjà à jour."
+          else
+            git commit -m "chore(mods): mettre à jour le manifeste automatique"
+            git push
+          fi
