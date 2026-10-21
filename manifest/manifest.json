@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "modpackVersion": "1.0.7",
+  "modpackVersion": "1.0.8",
   "minecraftVersion": "1.20.1",
   "forgeVersion": "47.4.10",
   "server": {
@@ -649,6 +649,12 @@
       "url": "https://github.com/zozo381169/Aeterna-Launcher-off/releases/download/mods-aeterna-v1/corpse-forge-1.20.1-1.0.23.jar",
       "size": 245644,
       "sha1": "843b16ca88bc5c390bb22a2a84437e6bffdd43dd"
+    },
+    {
+      "path": "mods/aeterna_calendar-forge-1.20.1-1.0.0.jar",
+      "url": "https://github.com/zozo381169/Aeterna-Launcher-off/releases/download/mods-aeterna-v1/aeterna_calendar-forge-1.20.1-1.0.0.jar",
+      "size": 125739,
+      "sha1": "663204e86656748196a7abc205fd2e088ee156f6"
     }
   ],
   "removeFiles": [
