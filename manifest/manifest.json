@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "modpackVersion": "1.0.8",
+  "modpackVersion": "1.0.9",
   "minecraftVersion": "1.20.1",
   "forgeVersion": "47.4.10",
   "server": {
@@ -655,6 +655,11 @@
       "url": "https://github.com/zozo381169/Aeterna-Launcher-off/releases/download/mods-aeterna-v1/aeterna_calendar-forge-1.20.1-1.0.0.jar",
       "size": 125739,
       "sha1": "663204e86656748196a7abc205fd2e088ee156f6"
+    },
+    {
+      "path": "mods/Aeterna-quests-medieval.jar",
+      "url": "https://github.com/zozo381169/Aeterna-Launcher-off/releases/download/mods-aeterna-v1/Aeterna-quests-medieval.jar",
+      "size": 1177353
     }
   ],
   "removeFiles": [
