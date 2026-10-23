@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "modpackVersion": "1.0.18",
+  "modpackVersion": "1.0.19",
   "minecraftVersion": "1.20.1",
   "forgeVersion": "47.4.10",
   "server": {
@@ -699,7 +699,7 @@
     },
     {
       "path": "mods/recruits-1.20.1-1.15.2.jar",
-      "url": "https://raw.githubusercontent.com/zozo381169/Aeterna-Launcher-off/test/manifestes-v1/mods/recruits-1.20.1-1.15.2.jar",
+      "url": "https://www.curseforge.com/api/v1/mods/523860/files/8339846/download",
       "size": 2811101,
       "sha1": "8d2ed3f0ab18c67a1d9394526bcae47b3ec162ab"
     }
