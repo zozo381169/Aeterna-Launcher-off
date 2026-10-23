@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "modpackVersion": "1.0.13",
+  "modpackVersion": "1.0.14",
   "minecraftVersion": "1.20.1",
   "forgeVersion": "47.4.10",
   "server": {
@@ -303,8 +303,8 @@
       "sha1": "562c502cac57f4e6c437a99c7c6888e364446405"
     },
     {
-      "path": "mods/recruits-1.20.1-1.15.2-commandement-refait.jar",
-      "url": "https://raw.githubusercontent.com/zozo381169/Aeterna-Launcher-off/test/manifestes-v1/mods/recruits-1.20.1-1.15.2-commandement-refait.jar",
+      "path": "mods/recruits-1.20.1-1.15.2-commandement-medieval.jar",
+      "url": "https://raw.githubusercontent.com/zozo381169/Aeterna-Launcher-off/test/manifestes-v1/mods/recruits-1.20.1-1.15.2-commandement-medieval.jar",
       "size": 2985168,
       "sha1": "f087c808d50a7480bd7c32578853369705ccebfb"
     },
@@ -663,7 +663,8 @@
     }
   ],
   "removeFiles": [
-    "mods/MenuAeterna-Final-v2.jar"
+    "mods/MenuAeterna-Final-v2.jar",
+    "mods/recruits-1.20.1-1.15.2-commandement-refait.jar"
   ],
   "links": {
     "discord": "https://discord.gg/4pbGYUH7td"
