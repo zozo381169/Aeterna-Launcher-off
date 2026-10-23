@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "modpackVersion": "1.0.12",
+  "modpackVersion": "1.0.13",
   "minecraftVersion": "1.20.1",
   "forgeVersion": "47.4.10",
   "server": {
@@ -305,8 +305,8 @@
     {
       "path": "mods/recruits-1.20.1-1.15.2-commandement-refait.jar",
       "url": "https://raw.githubusercontent.com/zozo381169/Aeterna-Launcher-off/test/manifestes-v1/mods/recruits-1.20.1-1.15.2-commandement-refait.jar",
-      "size": 2817339,
-      "sha1": "cd083813101c3dc813e40b92991a8c72a4b4ca05"
+      "size": 2985168,
+      "sha1": "f087c808d50a7480bd7c32578853369705ccebfb"
     },
     {
       "path": "mods/resourcefullib-forge-1.20.1-2.1.29.jar",
