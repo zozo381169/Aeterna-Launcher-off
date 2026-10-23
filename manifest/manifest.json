@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "modpackVersion": "1.0.10",
+  "modpackVersion": "1.0.11",
   "minecraftVersion": "1.20.1",
   "forgeVersion": "47.4.10",
   "server": {
@@ -307,12 +307,6 @@
       "url": "https://github.com/zozo381169/Aeterna-Launcher-off/releases/download/mods-aeterna-v1/recruits-1.20.1-1.15.2.jar",
       "size": 2811101,
       "sha1": "8d2ed3f0ab18c67a1d9394526bcae47b3ec162ab"
-    },
-    {
-      "path": "mods/recruitsarmygui-1.0.0.jar",
-      "url": "https://github.com/zozo381169/Aeterna-Launcher-off/releases/download/recruitsarmygui-1.0.0/recruitsarmygui-1.0.0.jar",
-      "size": 22507,
-      "sha1": "96e01f1d2ec6a67ac1f267056ed333f993d230cf"
     },
     {
       "path": "mods/resourcefullib-forge-1.20.1-2.1.29.jar",
