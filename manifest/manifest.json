@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "modpackVersion": "1.0.14",
+  "modpackVersion": "1.0.15",
   "minecraftVersion": "1.20.1",
   "forgeVersion": "47.4.10",
   "server": {
@@ -118,7 +118,7 @@
     },
     {
       "path": "mods/ftb-quests-forge-2001.4.22.jar",
-      "url": "https://github.com/zozo381169/Aeterna-Launcher-off/releases/download/mods-aeterna-v1/ftb-quests-forge-2001.4.22.jar",
+      "url": "https://www.curseforge.com/api/v1/mods/289412/files/8078538/download",
       "size": 1255469,
       "sha1": "70f3bd771ab3b5921ce1ff5f14166fab694ca1aa"
     },
