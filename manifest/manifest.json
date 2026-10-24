@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "modpackVersion": "1.0.21",
+  "modpackVersion": "1.0.22",
   "minecraftVersion": "1.20.1",
   "forgeVersion": "47.4.10",
   "server": {
@@ -890,6 +890,28 @@
       "sha1": "1a2b5334bc9ca96ab7ebc977c777ecb1dacc6d03",
       "size": 29563,
       "page": "https://modrinth.com/mod/full-brightness-toggle"
+    },
+    {
+      "id": "forgematica",
+      "requires": [
+        {
+          "id": "mafglib",
+          "name": "MaFgLib",
+          "version": "0.1.14-mc1.20.1",
+          "path": "mods/MaFgLib-0.1.14-mc1.20.1.jar",
+          "url": "https://github.com/zozo381169/Aeterna-Launcher-off/releases/download/mods-aeterna-v1/MaFgLib-0.1.14-mc1.20.1.jar",
+          "sha1": "fd18a3d8a9a72ee27cbb709a88c061b2347d2244",
+          "size": 521709
+        }
+      ],
+      "name": "Forgematica",
+      "description": "Consulte et place des schémas de construction en jeu. Mod client uniquement.",
+      "version": "0.1.13-mc1.20.1",
+      "path": "mods/Forgematica-0.1.13-mc1.20.1.jar",
+      "url": "https://www.curseforge.com/api/v1/mods/912441/files/6438641/download",
+      "sha1": "d235d2ac0ce0143425d4d1e3d9a32d32fc994a93",
+      "size": 997501,
+      "page": "https://www.curseforge.com/minecraft/mc-mods/forgematica/files/6438641"
     }
   ]
 }
