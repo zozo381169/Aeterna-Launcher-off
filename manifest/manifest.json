@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "modpackVersion": "1.0.20",
+  "modpackVersion": "1.0.21",
   "minecraftVersion": "1.20.1",
   "forgeVersion": "47.4.10",
   "server": {
@@ -696,6 +696,18 @@
       "url": "https://www.curseforge.com/api/v1/mods/523860/files/8339846/download",
       "size": 2811101,
       "sha1": "8d2ed3f0ab18c67a1d9394526bcae47b3ec162ab"
+    },
+    {
+      "path": "mods/ferritecore-6.0.1-forge.jar",
+      "url": "https://www.curseforge.com/api/v1/mods/429235/files/4810975/download",
+      "size": 123034,
+      "sha1": "417fb6ce8f52abf40bd9d0390371790f9576f8ba"
+    },
+    {
+      "path": "mods/modernfix-forge-5.27.89+mc1.20.1.jar",
+      "url": "https://www.curseforge.com/api/v1/mods/790626/files/9251675/download",
+      "size": 1010226,
+      "sha1": "df959e26d3ba4eba37de87155a67ac705dcfdae4"
     }
   ],
   "removeFiles": [
