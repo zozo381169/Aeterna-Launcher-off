@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "modpackVersion": "1.0.22",
+  "modpackVersion": "1.0.23",
   "minecraftVersion": "1.20.1",
   "forgeVersion": "47.4.10",
   "server": {
@@ -912,6 +912,18 @@
       "sha1": "d235d2ac0ce0143425d4d1e3d9a32d32fc994a93",
       "size": 997501,
       "page": "https://www.curseforge.com/minecraft/mc-mods/forgematica/files/6438641"
+    },
+    {
+      "id": "journeymap",
+      "requires": [],
+      "name": "JourneyMap",
+      "description": "Carte en temps réel avec minimap, carte plein écran et marqueurs. Évite de l’activer avec la minimap de Xaero si tu ne veux pas deux cartes à l’écran.",
+      "version": "forge-1.20.1-6.0.7",
+      "path": "mods/journeymap-forge-1.20.1-6.0.7.jar",
+      "url": "https://cdn.modrinth.com/data/lfHFW1mp/versions/HWDC99DO/journeymap-forge-1.20.1-6.0.7.jar",
+      "sha1": "fb9411d6d516f604a8fa63ba505205d813d7caa1",
+      "size": 4353808,
+      "page": "https://modrinth.com/plugin/journeymap/version/1.20.1-6.0.7%2Bforge"
     }
   ]
 }
