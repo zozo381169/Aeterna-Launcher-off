@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "modpackVersion": "1.0.24",
+  "modpackVersion": "1.0.25",
   "minecraftVersion": "1.20.1",
   "forgeVersion": "47.4.10",
   "server": {
@@ -459,10 +459,10 @@
       "sha1": "8352744a85f8c6f95e2d9cddb7fed09896c785cb"
     },
     {
-      "path": "mods/Aeterna-1.0.6.jar",
-      "url": "https://github.com/zozo381169/Aeterna-Launcher-off/releases/download/mods-aeterna-v1/Aeterna-1.0.6.jar",
-      "size": 1547651,
-      "sha1": "7e2dacad9c0fa9287ed028e0830d81b86de8f7d1"
+      "path": "mods/Aeterna-1.1.1.jar",
+      "url": "https://github.com/zozo381169/Aeterna-Launcher-off/releases/download/mods-aeterna-v1/Aeterna-1.1.1.jar",
+      "size": 1465817,
+      "sha1": "6b778aa3117aac17ea1baab5213a61848545963c"
     },
     {
       "path": "mods/AeternaCorbeaux-Client-1.0.0.jar",
