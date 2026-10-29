@@ -470,12 +470,6 @@
       "sha1": "439d38b55aa7a75c1bde1d87cb0a32289bf1bf63"
     },
     {
-      "path": "mods/AeternaHUD-1.0.0-taille-C.jar",
-      "url": "https://github.com/zozo381169/Aeterna-Launcher-off/releases/download/mods-aeterna-v0.1.0-test/AeternaHUD-1.0.0-taille-C.jar",
-      "size": 916899,
-      "sha1": "44d0a3e64a3974d7802356d4fd222ef24353ad4f"
-    },
-    {
       "path": "mods/AeternaInventory-1.0.0.jar",
       "url": "https://github.com/zozo381169/Aeterna-Launcher-off/releases/download/mods-aeterna-v0.1.0-test/AeternaInventory-1.0.0.jar",
       "size": 2541347,
@@ -642,13 +636,23 @@
       "url": null,
       "size": 245644,
       "sha1": "843b16ca88bc5c390bb22a2a84437e6bffdd43dd"
+    },
+    {
+      "path": "mods/AeternaHUD-1.0.1.jar",
+      "size": 916819,
+      "sha1": "01d874968b7a92874f28f04064a5876c025785fa"
+    },
+    {
+      "path": "mods/LootboxForge_Custom_v1.1_Aeterna.jar",
+      "size": 87850,
+      "sha1": "0fbc7afc7ff35e0165cd4b0b78ccac71436326a9"
     }
   ],
   "server": {
     "host": "play2.eternalzero.cloud",
     "port": 26506
   },
-  "modpackVersion": "0.1.0-test",
+  "modpackVersion": "0.1.1-test",
   "schemaVersion": 1,
   "forgeVersion": "47.4.10"
 }
