@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "modpackVersion": "1.0.26",
+  "modpackVersion": "1.0.27",
   "minecraftVersion": "1.20.1",
   "forgeVersion": "47.4.10",
   "server": {
@@ -471,12 +471,6 @@
       "sha1": "439d38b55aa7a75c1bde1d87cb0a32289bf1bf63"
     },
     {
-      "path": "mods/AeternaInventory-1.0.0.jar",
-      "url": "https://github.com/zozo381169/Aeterna-Launcher-off/releases/download/mods-aeterna-v1/AeternaInventory-1.0.0.jar",
-      "size": 2541347,
-      "sha1": "5090057431c8f71d7e901efad61b65daf412c7b4"
-    },
-    {
       "path": "mods/AeternaOfficiel-forge-1.4.6+1.20.1.jar",
       "url": "https://github.com/zozo381169/Aeterna-Launcher-off/releases/download/mods-aeterna-v1/AeternaOfficiel-forge-1.4.6%2B1.20.1.jar",
       "size": 304769,
@@ -714,13 +708,20 @@
       "url": "https://raw.githubusercontent.com/zozo381169/Aeterna-Launcher-off/test/manifestes-v1/mods/LootboxForge_Custom_v1.1_Aeterna.jar",
       "size": 87850,
       "sha1": "0fbc7afc7ff35e0165cd4b0b78ccac71436326a9"
+    },
+    {
+      "path": "mods/ftb-chunks-forge-2001.3.8.jar",
+      "url": "https://www.curseforge.com/api/v1/mods/314906/files/8216874/download",
+      "size": 1159043,
+      "sha1": "ee2d0cdac6d2ca31f43da30f76dff8c6bae9d687"
     }
   ],
   "removeFiles": [
     "mods/MenuAeterna-Final-v2.jar",
     "mods/recruits-1.20.1-1.15.2-commandement-refait.jar",
     "mods/recruits-1.20.1-1.15.2-commandement-medieval.jar",
-    "mods/multipiston-1.20-1.2.43-RELEASE.jar"
+    "mods/multipiston-1.20-1.2.43-RELEASE.jar",
+    "mods/AeternaInventory-1.0.0.jar"
   ],
   "links": {
     "discord": "https://discord.gg/4pbGYUH7td"
@@ -930,6 +931,35 @@
       "sha1": "fb9411d6d516f604a8fa63ba505205d813d7caa1",
       "size": 4353808,
       "page": "https://modrinth.com/plugin/journeymap/version/1.20.1-6.0.7%2Bforge"
+    },
+    {
+      "id": "inventory-profiles-next",
+      "requires": [
+        {
+          "id": "libipn",
+          "name": "libIPN",
+          "version": "4.0.2",
+          "path": "mods/libIPN-forge-1.20-4.0.2.jar",
+          "url": "https://www.curseforge.com/api/v1/mods/679177/files/5208511/download",
+          "sha1": "3e7c7fcdc037a6ae3d9146e718d87fc83f88f6d5"
+        },
+        {
+          "id": "kotlin-for-forge",
+          "name": "Kotlin for Forge",
+          "version": "4.11.0",
+          "path": "mods/kotlinforforge-4.11.0-all.jar",
+          "url": "https://www.curseforge.com/api/v1/mods/351264/files/5402061/download",
+          "sha1": "1fd8acfd75a2be2dc3cdcc7e816482b2e427d6e5"
+        }
+      ],
+      "name": "Inventory Profiles Next",
+      "description": "Trie automatiquement ton inventaire, déplace les objets et permet de verrouiller des emplacements. Mod client facultatif.",
+      "version": "1.10.20",
+      "path": "mods/InventoryProfilesNext-forge-1.20-1.10.20.jar",
+      "url": "https://www.curseforge.com/api/v1/mods/495267/files/7565992/download",
+      "size": 1457354,
+      "sha1": "979e74fa10b24a7d7c4d9aeb5824b80f4f9235cf",
+      "page": "https://modrinth.com/mod/inventory-profiles-next/version/forge-1.20.1-1.10.20"
     }
   ]
 }
