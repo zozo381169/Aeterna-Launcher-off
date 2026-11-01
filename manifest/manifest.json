@@ -708,12 +708,6 @@
       "url": "https://raw.githubusercontent.com/zozo381169/Aeterna-Launcher-off/test/manifestes-v1/mods/LootboxForge_Custom_v1.1_Aeterna.jar",
       "size": 87850,
       "sha1": "0fbc7afc7ff35e0165cd4b0b78ccac71436326a9"
-    },
-    {
-      "path": "mods/ftb-chunks-forge-2001.3.8.jar",
-      "url": "https://www.curseforge.com/api/v1/mods/314906/files/8216874/download",
-      "size": 1159043,
-      "sha1": "ee2d0cdac6d2ca31f43da30f76dff8c6bae9d687"
     }
   ],
   "removeFiles": [
