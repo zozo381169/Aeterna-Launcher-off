@@ -4,8 +4,8 @@
   "minecraftVersion": "1.20.1",
   "forgeVersion": "47.4.10",
   "server": {
-    "host": "38.147.106.158",
-    "port": 35150
+    "host": "185.83.152.116",
+    "port": 27060
   },
   "files": [
     {
