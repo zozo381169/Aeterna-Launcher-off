@@ -652,6 +652,12 @@
       "url": null,
       "size": 52205,
       "sha1": "bcb4bbb1052f49ed4fe6e7d5d7f91f68d45c3fe3"
+    },
+    {
+      "path": "mods/prismprotect-forge-1.3.2-mc1.20.1-1.20.4.jar",
+      "url": null,
+      "size": 13423788,
+      "sha1": "6007d0da3f86633859135179029b70dc82108be0"
     }
   ],
   "server": {
